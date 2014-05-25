@@ -1,6 +1,7 @@
 zfs-auto-snapshot:
 
 with added facility to allow pausing of filesystem for Xen compatability
+use option -x to pause and unpause Xen machines
 
 An alternative implementation of the zfs-auto-snapshot service for Linux
 that is compatible with zfs-linux and zfs-fuse.
