@@ -1,5 +1,7 @@
 zfs-auto-snapshot:
 
+with added facility to allow pausing of filesystem for Xen compatability
+
 An alternative implementation of the zfs-auto-snapshot service for Linux
 that is compatible with zfs-linux and zfs-fuse.
 
@@ -10,3 +12,4 @@ snapshots if it is installed.
 
 This program is a posixly correct bourne shell script.  It depends only on
 the zfs utilities and cron, and can run in the dash shell.
+
